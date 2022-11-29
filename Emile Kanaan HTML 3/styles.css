@@ -1,0 +1,251 @@
+body {
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    max-width: 1300px;
+    background-color: rgb(20, 5, 5);
+    /* background: url(./image.png) no-repeat top center; */
+    color: rgb(250, 250, 250);
+} 
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 1pc;
+
+}
+#title {
+    text-shadow: 0px 0px 10px #000000;
+}
+#content {
+    color: white;
+    margin: 1pc;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 1pc
+    
+    
+}
+
+.topHead {
+    background-image: url(./music-image.jpg) ;  
+    background-size: 100%;
+    width: 100%;
+    height: 30pc;
+    /* border: 1px solid black; */
+}
+
+/* img {
+    margin: auto;
+    margin-bottom: auto;
+} */
+
+a {
+    color: yellow;
+}
+
+navbar > li {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    /* border: 2px solid black; */
+
+    
+    /* border-right: 2px solid gray;
+    border-left: 2px solid gray; */
+    border-bottom: 2px solid gray;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+
+
+navbar  li  a {
+    font-size: 1.5pc;
+    text-decoration: none;
+    margin: auto;
+    font-weight: 900;
+
+}
+
+navbar > li > a:hover {
+    font-size: 1.5pc;
+    text-decoration: none;
+    
+    padding: 15px;
+    color:aqua;
+    
+
+}
+
+.allContent {
+    display: flex;
+    margin-bottom: 2pc;
+    
+
+}
+
+aside {
+    flex: 30%;
+    padding-right: 4pc;
+}
+
+aside > ul {
+    padding-left: 5px;
+}
+
+.rightSide {
+    flex: 70%;
+}
+
+.music {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2pc;
+}
+
+.services {
+    display: flex; 
+
+}
+
+.services > .subscription > h2 {
+    margin-top: 0px;
+}
+
+.services > .otherServices > h2 {
+    margin-top: 0px;
+}
+
+.subscription {
+    padding-right: 2pc;
+    
+}
+
+.otherServices {
+    padding-left: 2pc;
+    border-left: 2px solid grey;
+}
+
+.readMore {
+    margin-top: 1pc;
+    width: 90%;
+    height: 3pc;
+    font-weight: 900;
+    font-size: 1.2pc;
+    color: red;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+.readMore:hover {
+    margin-top: 1pc;
+    width: 90%;
+    height: 3pc;
+    font-weight: 900;
+    font-size: 1.3pc;
+    color: aqua;
+    background-color: rgb(20, 5, 5);
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+#contact {
+    text-align: center;
+    font-size: 1.5pc;
+    font-weight: 900;
+    
+}
+
+/* .submitButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+.contactUs {
+    text-align: center;
+}
+
+
+label {
+    font-size: 1.3pc;
+    
+    font-weight: 900;
+}
+
+#name, #userEmail {
+    
+    margin: 1pc;
+    width: 30%;
+    font-weight: 900;
+    font-size: 1.2pc;
+    color: red;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    padding: 1pc;
+
+}
+
+textarea {
+    margin: 1pc;
+    width: 50%;
+    font-weight: 900;
+    font-size: 1.2pc;
+    color: red;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    padding: 1pc;    
+}
+
+.radioLabel {
+    margin-right: 3pc;
+}
+
+#complaint {
+    margin-top: 2pc;
+    margin-bottom: 2pc;
+    
+}
+
+
+
+.submit {
+    margin: 1pc;
+    width: 20%;
+    height: 3pc;
+    font-weight: 900;
+    font-size: 1.3pc;
+    color: red;
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+.submit:hover {
+    margin: 1pc;
+    width: 20%;
+    height: 3pc;
+    font-weight: 900;
+    font-size: 1.5pc;
+    color: aqua;
+    background-color: rgb(20, 5, 5);
+    border: 2px solid yellow;
+    border-radius: 15px;
+}
+
+#footer {
+    text-align: center;
+    margin-bottom: 1.5pc;
+}
+
+a:hover {
+    color:aqua;
+}
